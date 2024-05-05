@@ -1,0 +1,55 @@
+:root {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+a:link, a:visited {
+  color: #1177aa;
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  color: #fc6c01;
+  text-decoration: none;
+}
+
+.img-link {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 50px;
+}
+.header__logo {
+  display: block;
+  width: 300px;
+  height: 50px;
+  flex-shrink: 0;
+  background: url("/assets/images/logo/head-logo.gif") no-repeat center center, url("/assets/images/logo/fon.jpg") no-repeat top left;
+}
+.header__title {
+  margin: 0;
+  white-space: nowrap;
+  line-height: 50px;
+  color: #666666;
+  font-weight: normal;
+  font-size: 1.6em;
+}
+
+.footer {
+  padding: 20px 20px 20px 62px;
+}
+
+/*# sourceMappingURL=common.css.map */
