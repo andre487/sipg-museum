@@ -4,9 +4,7 @@
   "description": "SIPG museum",
   "main": "index.html",
   "scripts": {
-    "build": "sass assets/css",
-    "build:watch": "sass -w assets/css",
-    "start": "http-server"
+    "start": "concurrently --kill-others \"npx http-server -a 127.0.0.1 -c0\" \"sass -w assets/css\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +17,7 @@
   "license": "UNLICENSED",
   "homepage": "https://sipg.ru",
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "http-server": "^14.1.1",
     "sass": "^1.75.0"
   }
