@@ -2,17 +2,13 @@
   "name": "sipg-museum",
   "version": "1.0.0",
   "description": "SIPG museum",
-  "main": "index.html",
   "scripts": {
     "start": "concurrently --kill-others \"npx http-server -a 127.0.0.1 -c0\" \"sass -w assets/css\""
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/andre487/sipg-museum.git"
+    "url": "git+ssh://git@github.com:andre487/sipg.ru.git"
   },
-  "keywords": [
-    "SIPG"
-  ],
   "author": "SIPG",
   "license": "UNLICENSED",
   "homepage": "https://sipg.ru",
