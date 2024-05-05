@@ -17,10 +17,7 @@
   ],
   "author": "SIPG",
   "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/andre487/sipg-museum/issues"
-  },
-  "homepage": "https://github.com/andre487/sipg-museum#readme",
+  "homepage": "https://sipg.ru",
   "devDependencies": {
     "http-server": "^14.1.1",
     "sass": "^1.75.0"
